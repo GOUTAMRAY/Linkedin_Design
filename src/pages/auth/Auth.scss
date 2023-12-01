@@ -1,0 +1,136 @@
+
+.fb-auth-area{
+    background-color: var(--fb-bg-gray);
+     height: 520px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+  .fb-auth-container{
+        width: 1150px;
+        display: flex;
+        justify-content: space-between;
+       
+        
+  // fb auth left 
+    .fb-auth-left{
+      margin-top: 50px;
+
+      img{
+            width: 280px;
+            transform: translate(-27px, 13px);
+      }
+      h2{
+        font-size: 28px;
+        font-weight: normal;
+        line-height: 32px;
+        width: 72%;
+
+      }
+    }
+
+   // fb width right 
+    .fb-auth-right{
+           text-align: center;
+      .fb-auth-box{
+         width: 370px;
+         background-color: #fff;
+         padding: 17px;
+         border-radius: 10px;
+         box-shadow: var(--fb-shadow);
+        form{
+           display: flex;
+           flex-direction: column;
+           gap: 10px;
+          text-align: center;
+
+          input{
+          font-size: 17px;
+          border-radius: 6px;
+          padding: 14px 16px;
+          border: var(--fb-border);
+          }
+
+          .login-btn{
+          font-size: 20px;
+          border-radius: 6px;
+          padding: 12px 16px;
+          background-color: var(--fb-primary-color);
+          cursor: pointer;
+          border: none;
+          color: #fff;
+         
+          }
+        }
+        a{
+          text-align: center;
+          display: block;
+          padding: 14px 0px;
+          font-size: 14px;
+          color: var(--fb-primary-color);
+
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+        .divider{
+           border: var(--fb-border);
+           margin: 15px 0px;
+        }
+        .create-btn{
+          
+          font-size: 17px;
+          border-radius: 6px;
+          padding: 10px 16px;
+          background-color: var(--fb-secondary-color);
+          cursor: pointer;
+          border: none;
+          color: #fff;
+          transition: .5s;
+          margin-bottom: 10px;
+
+          &:hover{
+            background-color: #36a420;
+          }
+        }
+      }
+      .fb-author-desc{
+           margin: 20px 0px;
+            text-align: center;
+        p{
+          font-size: 13px;
+          a{
+            font-weight: 700;
+            color:#333;
+            font-size: 14;
+
+            &:hover{
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+     
+    }
+
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
