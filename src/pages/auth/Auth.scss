@@ -9,7 +9,7 @@
   .fb-auth-container{
         width: 1150px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; 
        
         
   // fb auth left 
@@ -117,12 +117,164 @@
   }
 }
 
+// sign up form css 
+ .sign-up-form{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+
+   .h-form{
+    display: flex;
+    gap: 10px;
+   } 
+
+  input{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    background-color:#f5f6f7;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    line-height: 16px;
+  }
+
+  .reg-extra{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+  .reg-extra-title{
+           font-size: 13px;
+      svg{
+        cursor: pointer;
+      }
+    }
+    .reg-extra-option{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+
+      select{
+        flex: 1;
+        padding: 5px;
+        border: var(--fb-border);
+        border-radius: 4px;
+      }  
+
+      label{
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        border: var(--fb-border);
+        border-radius: 4px;
+   
+        span{
+          font-size: 14px;
+        }
+        input{
+            width: 20px;
+            
+        }
+      }
+
+    }
+   
+
+  }
+  .fb-text{
+    font-size: 12px;
+    color: #777;
+  }
+  .sign-btn{
+    font-size: 16px;
+    background-color: #36a420;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    width: 180px;
+    margin: 10px auto;
+   
+
+    &:hover{
+      background: linear-gradient(#79bc64, #578843);
+    }
+  }
+
+ }
 
 
 
+// bottom footer css
+.bottom-footer-part{
+  padding-top: 50px;
 
+  .footer-container{
+   width: 1250px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+  .btn-links{
+    span{
+        font-size: 13px;
+    }
+    a{
+      font-size: 12px;
+      margin: 0px 5px;
+      color: #8a8d91;
+     
+      &:hover{
+        text-decoration: underline;
+      }
+    
+    }
+  }
+  .plus-box{
+    margin-top: 10px;
+    font-size: 16px;
+   
+  }
+  .btn-link{
+    span{
+        font-size: 13px;
+    }
+    a{
+      font-size: 12px;
+      margin: 0px 5px;
+      color: #8a8d91;
+     
+      &:hover{
+        text-decoration: underline;
+      }
+    
+    }
+  }
+  }
+}
 
+// extra footer 
 
+.extra-footer{
+     padding: 50px;
+  .extra-container{
+       width: 1150px;
+       margin: auto;
+    .btn-link{
+
+      a{
+        font-size: 12px;
+        margin: 0px 5px;
+        color: #8a8d91;
+       
+        &:hover{
+          text-decoration: underline;
+        }
+      
+      }
+    }
+  }
+}
 
 
 
