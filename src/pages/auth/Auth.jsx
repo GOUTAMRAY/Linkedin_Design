@@ -11,7 +11,7 @@ import { createToast } from "../../helpers/helper";
 
 // get fb years 
 const years = Array.from({length : 100}, ( _, i) => new Date().getFullYear() - i
-
+    
 )
 
 // login page facebook
@@ -87,10 +87,10 @@ const Auth = () => {
              <form onSubmit={handleinputSubmit} className="sign-up-form">
                <div className="h-form">
                 <input type="text" className={border.first_name ? "" : "red-border"} placeholder="First Name" name="first_name" value={input.first_name}  onChange={handleInputChange} onBlur={handleInputBlur} />
-                 <input type="text" className={border.first_name ? "" : "red-border"} placeholder="Surname" name="sur_name" value={input.sur_name} onChange={handleInputChange} onBlur={handleInputBlur} />
+                 <input type="text" className={border.sur_name ? "" : "red-border"} placeholder="Surname" name="sur_name" value={input.sur_name} onChange={handleInputChange} onBlur={handleInputBlur} />
                </div>
-               <input type="text" className={border.first_name ? "" : "red-border"} placeholder="Mobile Number or Email Address" name="moe" value={input.moe}   onChange={handleInputChange} onBlur={handleInputBlur} />
-               <input type="text" className={border.first_name ? "" : "red-border"} placeholder="New Password" name="password" value={input.password}  onChange={handleInputChange} onBlur={handleInputBlur} />
+               <input type="text" className={border.moe ? "" : "red-border"} placeholder="Mobile Number or Email Address" name="moe" value={input.moe}   onChange={handleInputChange} onBlur={handleInputBlur} />
+               <input type="text" className={border.password ? "" : "red-border"} placeholder="New Password" name="password" value={input.password}  onChange={handleInputChange} onBlur={handleInputBlur} />
 
            <div className="reg-extra">
                 <span className="reg-extra-title"> Date of birth <FaQuestionCircle /> </span>
