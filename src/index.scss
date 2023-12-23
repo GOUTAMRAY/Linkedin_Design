@@ -4,6 +4,9 @@
   --fb-shadow : 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
   --fb-bg-gray : #f0f2f5;
   --fb-border :1px solid #dddfe2;
+  --fb-color: #65676B;
+  --fb-sec-shadow:  0 2px 4px rgba(154, 154, 154, 0.1), 0 2px 4px rgba(154, 154, 154, 0.1) ;
+  --fb-bg: #e4e6eb;
 }
 
 
@@ -14,6 +17,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: var(--fb-bg-gray);
+  
+}
 ul{
   margin: 0px;
   padding: 0px;
