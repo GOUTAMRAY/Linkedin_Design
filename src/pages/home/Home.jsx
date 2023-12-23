@@ -134,19 +134,21 @@ const Home = () => {
               <div className="author-box">
                 <div className="author-header">
                     <Card.Body className="auth-box-body">
-                    <div className="author-image-box">
-                        <img style={{height:"30px", width: "30px", borderRadius: "50%"}} src="https://scontent.fdac24-4.fna.fbcdn.net/v/t1.6435-9/92460140_507303053271172_3822400947888324608_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=be3454&_nc_ohc=ereNXr_g49kAX_sqooY&_nc_ht=scontent.fdac24-4.fna&oh=00_AfA6_cN5eotuc9dzUlmcYc1or_YPlvm0AbDxAUq3XTLmYw&oe=65ADE5ED" alt="" />
+                     <div className="header-content-data"> 
+                     <div className="author-image-box">
+                        <img style={{height:"40px", width: "40px", borderRadius: "50%"}} src="https://scontent.fdac24-4.fna.fbcdn.net/v/t1.6435-9/92460140_507303053271172_3822400947888324608_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=be3454&_nc_ohc=ereNXr_g49kAX_sqooY&_nc_ht=scontent.fdac24-4.fna&oh=00_AfA6_cN5eotuc9dzUlmcYc1or_YPlvm0AbDxAUq3XTLmYw&oe=65ADE5ED" alt="" />
                       <div className="content-box">
                         <h2> Goutam ray </h2>
                         <p> 9 min age <span> <FaEarthAmericas /></span></p>
                       </div>
-                   </div>
-                   <div className="author-close">
-                    <button> <HiOutlineDotsHorizontal /> </button>
-                    <button> <RxCross2 /> </button>
+                    </div>
+                     <div className="author-close">
+                        <button> <HiOutlineDotsHorizontal /> </button>
+                       <button> <RxCross2 /> </button>
+                      </div>
                    </div>
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo adipisci culpa debitis ex accusantium reiciendis voluptatibus vel at hic iure.</p>
-                 </Card.Body>
+                   </Card.Body>
                  <img style={{maxWidth:"100%"}} src="https://scontent.fdac24-3.fna.fbcdn.net/v/t39.30808-6/412697090_10163332975443574_1837286943140103346_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c42490&_nc_ohc=l-sfSwmBH_sAX_GAETC&_nc_ht=scontent.fdac24-3.fna&oh=00_AfAKQFnfNcpXTNDgCNH23azciRqVDrrgGDcETXFs0jMTrA&oe=658AE37F" alt="" />
             
                   <div className="card-foter">                  
@@ -155,6 +157,7 @@ const Home = () => {
                           <li> <AiFillLike /></li>
                           <li> <FcLike /></li>
                           <li> <FaRegSadCry />  </li>
+                          
                          </ul>
                       </div>
                       <div className="footer-right">
@@ -162,13 +165,15 @@ const Home = () => {
                       </div>
                   
                   </div>
-                  <hr />
+                  <div className="abcddeff"> </div>
                 
                   <div className="like-comment-share">
+                   
                     <ul>
                       <li> <span><AiOutlineLike /> </span> Like </li>
                       <li> <span><FaRegComment /> </span> Comment </li>
                       <li> <span><RiShareForwardLine /> </span> Share </li>
+                      <li> <img style={{width:"20px", height: "20px", borderRadius:"50%"}} src="https://scontent.fdac24-3.fna.fbcdn.net/v/t39.30808-6/412697090_10163332975443574_1837286943140103346_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c42490&_nc_ohc=l-sfSwmBH_sAX_GAETC&_nc_ht=scontent.fdac24-3.fna&oh=00_AfAKQFnfNcpXTNDgCNH23azciRqVDrrgGDcETXFs0jMTrA&oe=658AE37F" alt="" /></li>
                     </ul>
                   </div>
 

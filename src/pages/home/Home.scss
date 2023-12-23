@@ -286,25 +286,108 @@
 
     .auth-box-body{
 
-      .author-image-box{
+
+       .header-content-data{
+           display: flex;
+           justify-content: space-between;
+
+        .author-image-box{
+          display: flex;
+          justify-content: space-between;
+          gap: 10px;
+          
 
         img{
 
         }
         .content-box{
-
+             padding: 0px;
           h2{
+            font-size: 15px; 
+            color: #050505;
 
           }
           p{
-
+             font-size: 13px;
             span{
-              
+
             }
+          }
+        }
+        }
+        .author-close{
+               display: flex;
+               gap: 15px;
+               align-items: flex-start;
+          button{
+            border: none;
+            background-color: transparent;
+            font-size: 22px;
+          }
+        }
+       }
+       p{
+
+       }
+
+    }
+    img{
+
+    }
+    .card-foter{
+          display: flex;
+          justify-content: space-between;
+          padding: 10px 15px;
+
+      .footer-left{
+
+        ul{
+         display: flex;
+         align-items: center;
+         gap: 4px;
+
+          li{
+             font-size: 20px;
+
+             p{
+                margin-top: 5px;
+             }
+          }
+        }
+      }
+      .footer-right{
+
+        p{
+
+        }
+      }
+    }
+    .abcddeff{
+      height: 1px;
+      width: 96%;
+      margin: auto;
+      background-color: #dedede;
+    }
+    
+    .like-comment-share{
+         margin-top: 10px;
+         padding-bottom: 10px;
+        
+
+      ul{
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+
+        li{
+
+          span{
+
           }
         }
       }
     }
+
   }
 }
 
