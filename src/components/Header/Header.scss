@@ -1,0 +1,137 @@
+
+
+// header css
+.header{
+  background-color: #fff;
+  padding: 5px;
+  box-shadow: var(--fb-sec-shadow);
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff; 
+  z-index: 999;
+
+.header-container{
+
+ .header-row{
+
+   .collum-abc{
+       display: flex;
+       align-items: center;
+
+     .header-fb-search{
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-start;
+         align-items: center;
+         gap: 0px;
+       img{
+         
+       }
+     .fff-box{
+       margin-left: -8px;
+
+       span{
+         position: relative;
+         left: 32px;
+         top: 0px;
+         font-size: 17px;
+         font-weight: 400;
+         color: #9f9f9f;
+       }
+       input{
+         border: none;
+         border-radius: 25px;
+         background-color: #f0f2f5;
+         padding-top: 8px;
+         padding-bottom: 8px;
+         padding-left: 30px;
+         padding-right: 5px;
+         font-size: 15px;
+         font-weight: 400;
+         color: #050505;
+       }
+     }
+
+     }
+   }
+   .collum-def{
+
+     .fb-menu{
+
+       ul{
+          display: flex;
+          justify-content: space-around;
+          
+          
+         li{
+
+       
+
+           a{
+            display: block;
+            padding: 5px 15px;
+            font-size: 25px;
+            color: var(--fb-color);
+                  
+           }
+           .active{
+            color: var(--fb-primary-color);
+            border-bottom: 4px solid rgb(6, 149, 245);
+           }
+
+         }
+       }
+     }
+   }
+   .collum-fgh{
+      
+     .right-menu{
+
+       ul{
+          display: flex;
+          justify-content: flex-end;
+          gap: 10px;
+
+         li{
+           
+           a{
+             display: block;
+             height: 40px;
+             width: 40px;
+             line-height: 30px;
+             text-align: center;
+             background-color: #e4e6eb;
+             color: var(--fb-color);
+             font-size: 25px;
+             padding: 5px;
+             border-radius: 50%;
+
+
+           }
+
+           
+           }
+
+         }
+       }
+     }
+   }
+ }
+}   
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

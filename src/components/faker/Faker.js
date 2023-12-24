@@ -86,5 +86,61 @@ export const storyBox = [
  
 ]
 
-
+export const friendImgbox = [
+  {
+    id: 1,
+    photo : "https://scontent.fdac24-4.fna.fbcdn.net/v/t1.6435-9/92460140_507303053271172_3822400947888324608_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=be3454&_nc_ohc=ereNXr_g49kAX_sqooY&_nc_ht=scontent.fdac24-4.fna&oh=00_AfA6_cN5eotuc9dzUlmcYc1or_YPlvm0AbDxAUq3XTLmYw&oe=65ADE5ED",
+    content : "Goutam Ray Sujan"
+  },
+  {
+    id: 2,
+    photo : "https://sicherheitsheld.de/images/primax/team/team-1.jpg",
+    content : "Shanto ray"
+  },
+  {
+    id: 3,
+    photo : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJEABy10QnLp_dlJWIWx8KKu7rV9L6MBKUyeIkuGRMUqYu8VM3F_G4O0YtvXU1j4id_24&usqp=CAU",
+    content : "Gourango ray"
+  },
+  {
+    id: 4,
+    photo : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIlgtRuPr6MaWKf0A3e0c0sUAAdDUzIpeOv4D7SzPC_ArOaxUzjmPKQW-djxinlamFwMw&usqp=CAU",
+    content : "Durjay ray"
+  },
+  {
+    id: 5,
+    photo : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5XWqlmON1G75BbuqhsDfkb6V7to9IbBtpG9HFE6QQJIy26u1YxHXCFLeL4bzAcGAkm1I&usqp=CAU",
+    content : "Hori Shankor"
+  },
+  {
+    id: 6,
+    photo : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbqbURLsERvgGD1EfNJXv5FGCblGqQbspzxxmn3lncb2OenJe0kkqLQSPyn8RywrGHWZk&usqp=CAU",
+    content : "Dipok ray"
+  },
+  {
+    id: 7,
+    photo : "https://www.sexymedia.co.uk/wp-content/uploads/2019/08/team-member-04.jpg",
+    content : "Simanto ray"
+  },
+  {
+    id: 8,
+    photo : "https://www.sexymedia.co.uk/wp-content/uploads/2019/08/team-member-02.jpg",
+    content : "Joy ray"
+  },
+  {
+    id: 9,
+    photo : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWP4PS1QKLJPiQQimWFfeCL5vvvsz0IXMp5dZbLBLAVUxhtv0oiDvM0dyxELNTlqHm0ro&usqp=CAU",
+    content : "Shoyon ray"
+  },
+  {
+    id: 10,
+    photo : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebJ2I8UUBVSLUFqsqtWk3q2cKJmvK1oltRvf0DKN5ZvSw12OcwedODXmz9MRE0zTLT1c&usqp=CAU",
+    content : "Abdul khan"
+  },
+  {
+    id: 11,
+    photo : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiW_hKQsSAdV13TRpg5YSvzSGp8Qy7fA18z_0BzOG2Ft9LZINnPf-n8WQcjJ1nXQXucck&usqp=CAU",
+    content : "Bishal ray"
+  },
+]
 

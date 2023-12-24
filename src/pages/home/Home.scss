@@ -1,122 +1,40 @@
+ 
+.popup-modal{
 
-.header{
-     background-color: #fff;
-     padding: 5px;
-     box-shadow: var(--fb-sec-shadow);
-     position: sticky;
-     top: 0px;
-     left: 0px;
-     width: 100%;
-     margin: 0 auto;
-     background-color: #fff;
-     z-index: 999;
+  .popup-modal-box{
 
-  .header-container{
-
-    .header-row{
-
-      .collum-abc{
-
-        .header-fb-search{
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            align-items: center;
-            gap: 0px;
-          img{
-            
-          }
-        .fff-box{
-          margin-left: -8px;
-
-          span{
-            position: relative;
-            left: 32px;
-            top: 0px;
-            font-size: 17px;
-            font-weight: 400;
-            color: #9f9f9f;
-          }
-          input{
-            border: none;
-            border-radius: 25px;
-            background-color: #f0f2f5;
-            padding-top: 8px;
-            padding-bottom: 8px;
-            padding-left: 30px;
-            padding-right: 5px;
-            font-size: 15px;
-            font-weight: 400;
-            color: #050505;
-          }
-        }
-
-        }
+    .modal-text{
+          display: flex;
+          justify-content: flex-end;
+          align-items:center;
+      h3{
+        width: 430px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
       }
-      .collum-def{
+      button{
+         width: 40px;
+         height: 40px;
+        
+         line-height: 25px;
+         border: none;
+         background: #e4e6eb;
+         border-radius: 50%;
+         padding: 2px;
+         font-size: 25px;
 
-        .fb-menu{
-
-          ul{
-             display: flex;
-             justify-content: space-around;
-             
-            li{
-
-
-              a{
-                 font-size: 25px;
-                 color: var(--fb-color);
-
-
-              }
-
-            }
-          }
-        }
-      }
-      .collum-fgh{
-         
-        .right-menu{
-
-          ul{
-             display: flex;
-             justify-content: flex-end;
-             gap: 10px;
-
-            li{
-              
-              a{
-                display: block;
-                height: 40px;
-                width: 40px;
-                line-height: 30px;
-                text-align: center;
-                background-color: #e4e6eb;
-                color: var(--fb-color);
-                font-size: 25px;
-                padding: 5px;
-                border-radius: 50%;
-
-
-              }
-
-              
-              }
-
-            }
-          }
-        }
       }
     }
   }
+}
 
-// banner css 
+// banner css   
 .banner{
 
   .banner-container{
 
-    .banner-row{
+    .banner-row{ 
 
       .banner-left-side{
 
@@ -228,6 +146,8 @@
 
       img{
 
+
+
       }
       input{
          border-radius: 25px;
@@ -244,16 +164,23 @@
           gap: 10px;
           align-items: center;
           justify-content: space-evenly;
+
           li{
            display: flex;
            gap: 7px;
            justify-content: center;
+           padding: 0px 10px;
+           width: 190px;
+           border-radius: 5px;
            
+           &:hover{
+            background-color: #f2f2f2;
+           }
            
 
             span{
              font-size: 25px;
-             margin-top: -11px;
+            
             }
             .live-video{
               color: red;
@@ -267,6 +194,7 @@
 
             p{
               font-size: 15px;
+              margin-top: 10px;
               color: 
               #65676B;
             }
@@ -344,21 +272,34 @@
         ul{
          display: flex;
          align-items: center;
-         gap: 4px;
+         gap: 2px;
 
+         .like-icon{
+          color: #075ce5;
+         }
+
+         .sad-icon{
+          color: #f9d507;
+         }
           li{
              font-size: 20px;
+             margin-top: -18px;
 
-             p{
-                margin-top: 5px;
-             }
+
+          }
+          p{
+            margin-left: 5px;
           }
         }
       }
       .footer-right{
+           display: flex;
+           gap: 10px;
 
         p{
-
+          color: #050505;
+          font-size: 15px;
+          font-weight: 400;
         }
       }
     }
@@ -380,19 +321,183 @@
          align-items: center;
 
         li{
+          padding: 5px 20px;
+          width: 170px;
+          border-radius: 5px;
+          display: flex;
+          gap: 4px;
+          align-items: center;
 
+          &:hover{
+            background-color: #f2f2f2;
+           }
           span{
-
+             font-size: 20px;
           }
+          &:last-child{
+            width: 80px;
+          }
+
         }
+
       }
     }
 
   }
 }
 
+// right side ber css 
+.banner{
+
+  .banner-container{
+
+    .banner-row{
+
+      .fb-right-sideBar{
+      
+        .pages-profile{
+              display: flex;
+              justify-content: space-between;
+              align-items: flex-start;
+              margin-bottom: 5px;
 
 
+          h5{
+            font-size: 16px;
+            font-weight: 600;
+            color: #65676B;
+          }
+          span{
+
+          }
+          .contact-abc-search{
+            display: flex;
+            gap: 10px;
+            font-size: 20px;
+          }
+        }
+        hr{
+          padding: 10px 0px;
+          margin: 0px;
+        }
+        .friend-request{
+                 display: flex;
+                 justify-content: space-between;
+                 align-items: center;
+                 padding-bottom: 10px;
+          h6{
+             font-size: 15px;
+             font-weight: 600;
+             color: #65676B;
+
+             &:last-child{
+              color: #075ce5;
+             }
+          }
+
+        }
+        .confirm-box{
+              display: flex;
+              justify-content: space-between;
+              padding: 10px;
+              border-radius: 10px;
+              transition: .4s;
+              margin-bottom: 10px;
+
+          .confirm-box-left{
+               width: 60px;
+            img{
+
+            }
+          }
+          .confirm-box-right{
+                  width: 217px;
+             
+            .right-box-a{
+                    display: flex;
+                    justify-content: space-between;
+
+              .confirm-abc{
+
+                h6{
+
+                }
+                .name-box{
+                   display: flex;
+
+                  img{
+
+                  }
+                  p{
+
+                  }
+                }
+
+              }
+              .confirm-def{
+
+                p{
+
+                }
+              }
+            }
+            .right-box-b{
+                display: flex;
+                justify-content: space-between;
+
+              button{
+                width: 105px;
+
+              }
+              .delete-btn{
+                background-color: #c4c4c4;
+                border: none;
+                color: #050505;
+                font-weight: 500;
+              }
+
+            }
+
+
+          }
+
+          &:hover{
+            background-color: #e8e8e8;
+          }
+        }
+        .contact-box-fri{
+
+          .img-view{
+            position: relative;
+             display: flex;
+             gap: 10px;
+             padding-bottom: 5px;
+             
+            img{
+                padding: 3px;
+                border: 2px solid blue;
+            }
+            .dot-ab{
+              position: absolute;
+              left: 27px;
+              top: 19px;
+              width: 13px;
+              height: 13px;
+              background-color: #41b35d;
+              border: 2px solid #fff;
+               border-radius: 50%;
+            }
+            p{
+             margin-top: 5px;
+            }
+
+            
+          }
+        }
+      }
+    }
+  }
+}
 
 
 
