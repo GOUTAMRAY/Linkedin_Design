@@ -3,7 +3,7 @@
 // header css
 .header{
   background-color: #fff;
-  padding: 5px;
+  // padding: 5px;
   box-shadow: var(--fb-sec-shadow);
   position: sticky;
   top: 0px;
@@ -43,7 +43,7 @@
        }
        input{
          border: none;
-         border-radius: 25px;
+         border-radius: 5px;
          background-color: #f0f2f5;
          padding-top: 8px;
          padding-bottom: 8px;
@@ -72,17 +72,37 @@
 
            a{
             display: block;
-            padding: 5px 15px;
+            padding: 15px 15px;
             font-size: 25px;
             color: var(--fb-color);
+            margin-bottom: 15px;
+            
+          
                   
            }
+           span{
+            font-size: 13px !important;
+            margin-left: 8px;
+            position: relative;
+            top: -38px;
+       
+          }
            .active{
             color: var(--fb-primary-color);
-            border-bottom: 4px solid rgb(6, 149, 245);
-           }
+            border-bottom: 2px solid rgb(1, 4, 6);
 
+           }
+           &:last-child{
+            width: 120px;
+            text-align: center;
+            position: relative;
+            top: 13px;
+            color:#e3cc9c ;
+   
+          }
          }
+
+
        }
      }
    }
@@ -92,28 +112,24 @@
 
        ul{
           display: flex;
-          justify-content: flex-end;
+          justify-content: flex-start;
           gap: 10px;
 
          li{
-           
+    
            a{
              display: block;
              height: 40px;
              width: 40px;
-             line-height: 30px;
+             line-height: 40px;
              text-align: center;
-             background-color: #e4e6eb;
              color: var(--fb-color);
-             font-size: 25px;
-             padding: 5px;
-             border-radius: 50%;
-
+             font-size: 27px;
 
            }
 
-           
            }
+
 
          }
        }

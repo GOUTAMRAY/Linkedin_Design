@@ -65,21 +65,21 @@ export const storyBox = [
   {
       id: 1,
       pro_name: "Goutam Ray",
-      pro_Photo : "https://scontent.fdac24-4.fna.fbcdn.net/v/t1.6435-9/92460140_507303053271172_3822400947888324608_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=be3454&_nc_ohc=ereNXr_g49kAX_sqooY&_nc_ht=scontent.fdac24-4.fna&oh=00_AfA6_cN5eotuc9dzUlmcYc1or_YPlvm0AbDxAUq3XTLmYw&oe=65ADE5ED",
+      pro_Photo : "https://scontent.fdac24-4.fna.fbcdn.net/v/t1.6435-9/92099167_507299896604821_1009659898331398144_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7a1959&_nc_ohc=9QRPm8kifNsAX98XYsw&_nc_ht=scontent.fdac24-4.fna&oh=00_AfAOhyBK2qSIq5oOGc_Vu24t774CQzK0-strXDgSiRVPJg&oe=65D99E28",
       sto_photo : "https://img.freepik.com/premium-photo/generative-ai-magic-world-opening-book_501669-25160.jpg"
    
   },
   {
       id: 2,
       pro_name: "Shanto Ray",
-      pro_Photo : "https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/248983901_1320100701744491_8610427956135139538_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=AZlc2WaaJG4AX8FbypO&_nc_ht=scontent.fdac24-2.fna&oh=00_AfCHJtS-2KlpHmfE-SBiksKsutlqaQkk63kT-Qs2Nqt7xg&oe=658B0029",
+      pro_Photo : "https://scontent.fdac24-4.fna.fbcdn.net/v/t1.6435-9/92099167_507299896604821_1009659898331398144_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7a1959&_nc_ohc=9QRPm8kifNsAX98XYsw&_nc_ht=scontent.fdac24-4.fna&oh=00_AfAOhyBK2qSIq5oOGc_Vu24t774CQzK0-strXDgSiRVPJg&oe=65D99E28",
       sto_photo : "https://img.freepik.com/free-photo/collage-numerology-concept_23-2150012112.jpg?w=740&t=st=1703324585~exp=1703325185~hmac=f1b0210f60099b1c7d57a21c16c8d6a491fdd71809528d9389317ea675e975d8"
    
   },
   {
       id: 3,
       pro_name: "Gouango Ray",
-      pro_Photo : "https://scontent.fdac24-3.fna.fbcdn.net/v/t39.30808-6/284058174_1180743656058858_4312117367901095899_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=pZHs9z2MZZcAX82F_Lu&_nc_ht=scontent.fdac24-3.fna&oh=00_AfCyQNLMRD8QGn012UGzkqLpsKmKxf_SezgUa35nhiYPAQ&oe=658B4EA7",
+      pro_Photo : "https://scontent.fdac24-4.fna.fbcdn.net/v/t1.6435-9/92099167_507299896604821_1009659898331398144_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7a1959&_nc_ohc=9QRPm8kifNsAX98XYsw&_nc_ht=scontent.fdac24-4.fna&oh=00_AfAOhyBK2qSIq5oOGc_Vu24t774CQzK0-strXDgSiRVPJg&oe=65D99E28",
       sto_photo : "https://img.freepik.com/free-vector/futuristic-city-skyline-background_23-2148146284.jpg?t=st=1703324585~exp=1703325185~hmac=f0252ce92496f5041fa377d1c41182b696f7d218e3a51390882ef3fa01b29bb4"
    
   },

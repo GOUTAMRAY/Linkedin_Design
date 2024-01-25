@@ -52,14 +52,18 @@
           }
 
           .login-btn{
-          font-size: 20px;
-          border-radius: 6px;
-          padding: 12px 16px;
-          background-color: var(--fb-primary-color);
-          cursor: pointer;
-          border: none;
-          color: #fff;
-         
+              border: none;
+            a{
+              display: block;
+              font-size: 20px;
+              border-radius: 6px;
+              padding: 6px 10px;
+              background-color: var(--fb-primary-color);
+              cursor: pointer;
+              border: none !important;
+              color: #fff !important;
+              border-radius: 6px;
+            }
           }
         }
         a{

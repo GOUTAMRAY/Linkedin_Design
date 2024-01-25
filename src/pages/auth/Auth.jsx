@@ -9,6 +9,7 @@ import { useState } from "react";
 import { Day, Month } from "../../components/faker/Faker";
 import { createToast } from "../../helpers/helper";
 
+
 // get fb years 
 const years = Array.from({length : 100}, ( _, i) => new Date().getFullYear() - i
     
@@ -149,7 +150,7 @@ const Auth = () => {
               <form action="#">
                 <input type="text"  placeholder="Email address or phone number"/>
                 <input type="password"  placeholder="Password"/>
-                <button className="login-btn">Log in</button>
+                <button className="login-btn" > <Link to="/"> Log in  </Link> </button>
               </form>
               <Link to=""> Forgotten password? </Link>
               <div className="divider"></div>
