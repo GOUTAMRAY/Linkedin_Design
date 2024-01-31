@@ -1,25 +1,39 @@
+<<<<<<< HEAD
 import { SlCalender } from "react-icons/sl";
 import { GoFileMedia } from "react-icons/go";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 import { FaRegSadCry,FaRegComment, FaEdit } from "react-icons/fa";
 import { RiCheckboxBlankFill, RiMoneyCnyBoxFill, RiShareForwardLine  } from "react-icons/ri";
 import { CiViewList } from "react-icons/ci";
+=======
+import { IoMdSad } from "react-icons/io";
+import { MdAddPhotoAlternate, MdOutlineArrowDropDown  } from "react-icons/md";
+import { FaVideoSlash,FaRegSadCry,FaRegComment } from "react-icons/fa";
+import { IoSearch } from "react-icons/io5";
+import { FiPlus } from "react-icons/fi";
+>>>>>>> parent of c6c6e2a (linkedin design)
 import { FaEarthAmericas } from "react-icons/fa6";
 import { HiOutlineDotsHorizontal } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
 import { AiFillLike,AiOutlineLike } from "react-icons/ai";
 import { FcLike } from "react-icons/fc";
+<<<<<<< HEAD
 import { FaPeopleGroup } from "react-icons/fa6";
 import { BsFillBoxFill, BsThreeDots } from "react-icons/bs";
 import { FaArrowRight } from "react-icons/fa";
 import { IoIosArrowUp } from "react-icons/io";
 
 
+=======
+import { RiShareForwardLine } from "react-icons/ri";
+>>>>>>> parent of c6c6e2a (linkedin design)
 
+import { Link } from "react-router-dom";
 import { Modal } from "react-bootstrap";
 
 import "./Home.scss"
 
+import { friendImgbox, leftImgbox, storyBox } from "../../components/faker/Faker";
 import { Button, Card } from "react-bootstrap";
 import PageHeader from "../../components/PageHeader/PageHeader";
 import { useEffect, useState } from "react";
@@ -67,6 +81,15 @@ const Home = () => {
        }))
      };
 
+<<<<<<< HEAD
+=======
+   // get all students 
+   const getAllPosts = async () => {
+
+    const response =  await axios.get("http://localhost:5000/students");
+    setStudents(response.data);
+   };
+>>>>>>> parent of c6c6e2a (linkedin design)
 
   // GET ALL STUDENT 
   useEffect(() => {
@@ -147,6 +170,41 @@ const Home = () => {
       </Modal.Body>
     </Modal>
       
+<<<<<<< HEAD
+=======
+    {/* create Update modal  */}
+    <Modal show={modalEdit} className="popup-modal" onHide={handleUpdateModalHide}> 
+      <Modal.Header className="popup-modal-box"> 
+          <div className="modal-text">
+             <h3> Update post </h3>
+             <button onClick={handleUpdateModalHide}> <RxCross2 /> </button>
+          </div>
+      </Modal.Header>
+      <Modal.Body> 
+           <form onSubmit={handleUpdatePost}>
+             <div className="my-3">
+               <label> Name </label>
+               <input type="text"  className="form-control" name="name" value={input.name}  onChange={handleInputChange}/>
+             </div>
+             <div className="my-3">
+               <label> Desc </label>
+               <input type="text"  className="form-control" name="desc" value={input.desc}  onChange={handleInputChange}/>
+             </div>
+             <div className="my-3">
+               <label> Profile Photo </label>
+               <input type="text"  className="form-control" name="pr_photo" value={input.pr_photo}  onChange={handleInputChange}/>
+             </div>
+             <div className="my-3">
+               <label> Post Photo </label>
+               <input type="text" className="form-control" name="po_photo" value={input.po_photo}  onChange={handleInputChange}/>
+             </div>
+             <div className="my-3">
+              <Button type="submit"> Update </Button>
+             </div>
+           </form>
+      </Modal.Body>
+    </Modal>
+>>>>>>> parent of c6c6e2a (linkedin design)
 
 
     {/* banner section start */}
@@ -155,6 +213,7 @@ const Home = () => {
         <div className="row banner-row">
 
           {/* left sideber */}
+<<<<<<< HEAD
           <div className="col-md-3 banner-left-side" style={{width: "310px"}}>
             <div className="left-ber-fixed" > 
               <Card >
@@ -276,13 +335,25 @@ const Home = () => {
                 </Card.Body>
               </Card>
               </div>
+=======
+          <div className="col-md-3 banner-left-side">
+            {leftImgbox.map((item, index) => {
+              return <Link key={index}> 
+              <div className="left-box" >
+                <img style={{width: "40px", height:"40px",  borderRadius: "50%"}} src={item.photo} alt="" />
+                <h3> {item.content} </h3> 
+             </div>
+           </Link> 
+            })}
+           
+>>>>>>> parent of c6c6e2a (linkedin design)
           </div>
 
           {/* middle-bar */}
           <div className="col-md-6 middle-box">
 
             {/* profile box start */}
-            {/* <div className="profile-box">
+            <div className="profile-box">
               <div className="profile-img-box shadow">
                  <img style={{height:"200px", width: "150px"}} src="https://scontent.fdac24-4.fna.fbcdn.net/v/t1.6435-9/92460140_507303053271172_3822400947888324608_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=be3454&_nc_ohc=ereNXr_g49kAX_sqooY&_nc_ht=scontent.fdac24-4.fna&oh=00_AfA6_cN5eotuc9dzUlmcYc1or_YPlvm0AbDxAUq3XTLmYw&oe=65ADE5ED" alt="" />
                  <h4 className="img-plus"><FiPlus /></h4>
@@ -295,31 +366,31 @@ const Home = () => {
                 <p  className="story-text"> {item.pro_name} </p>
              </div>
               })}             
-            </div> */}
+            </div>
 
             {/* post-box-section */}
-            <div className="post-box ">
+            <div className="post-box my-3">
                <Card className="post-box-card"> 
                 <Card.Body className="post-box-body">
                  <div className="img-input">
-                    <img  style={{height:"35px", width: "35px", borderRadius:"50%"}} src="https://scontent.fdac24-4.fna.fbcdn.net/v/t1.6435-9/92460140_507303053271172_3822400947888324608_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=be3454&_nc_ohc=D-ksgHWSn68AX-jdMKu&_nc_ht=scontent.fdac24-4.fna&oh=00_AfC26sOqiF8grnt8kInsWJXVzoxBAVvwb4D2HbNKIz80mQ&oe=65D99FAD" alt="" />
-                   <input type="text"  placeholder="Start a post" className="form-control" onClick={handleModalShow}/>
+                    <img  style={{height:"35px", width: "35px", borderRadius:"50%"}} src="https://scontent.fdac24-4.fna.fbcdn.net/v/t1.6435-9/92460140_507303053271172_3822400947888324608_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=be3454&_nc_ohc=ereNXr_g49kAX_sqooY&_nc_ht=scontent.fdac24-4.fna&oh=00_AfA6_cN5eotuc9dzUlmcYc1or_YPlvm0AbDxAUq3XTLmYw&oe=65ADE5ED" alt="" />
+                   <input type="text"  placeholder="What's on your mind, Goutam?" className="form-control" onClick={handleModalShow}/>
                  </div>
-        
-                 <div className="live-box mt-2">
+                 <hr />
+                 <div className="live-box">
                    <div className="icon-image">
                        <ul>
                         <li> 
-                          <span className="live-video"><GoFileMedia /> </span>
-                          <p> Media </p>
+                          <span className="live-video"><FaVideoSlash /> </span>
+                          <p> Live video </p>
                         </li>
                         <li> 
-                          <span className="photo-video"> <SlCalender /> </span>
-                          <p> Event </p>
+                          <span className="photo-video"> <MdAddPhotoAlternate /> </span>
+                          <p> Photo/video </p>
                         </li>
                         <li> 
-                          <span className="sad-video"><CiViewList /> </span>
-                          <p> Write article </p>
+                          <span className="sad-video"><IoMdSad /> </span>
+                          <p> Feeling/activity </p>
                         </li>
                        </ul>
                    </div>
@@ -375,31 +446,9 @@ const Home = () => {
                     <li> <span><AiOutlineLike /> </span> Like </li>
                     <li> <span><FaRegComment /> </span> Comment </li>
                     <li> <span><RiShareForwardLine /> </span> Share </li>
-                    <li> <img style={{width:"35px", height: "30px", borderRadius:"50%"}} src="https://scontent.fdac24-4.fna.fbcdn.net/v/t1.6435-9/92099167_507299896604821_1009659898331398144_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7a1959&_nc_ohc=9QRPm8kifNsAX98XYsw&_nc_ht=scontent.fdac24-4.fna&oh=00_AfAOhyBK2qSIq5oOGc_Vu24t774CQzK0-strXDgSiRVPJg&oe=65D99E28" alt="" /> <span> <MdOutlineArrowDropDown /> </span> </li>
+                    <li> <img style={{width:"30px", height: "30px", borderRadius:"50%"}} src="https://scontent.fdac24-3.fna.fbcdn.net/v/t39.30808-6/412697090_10163332975443574_1837286943140103346_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c42490&_nc_ohc=l-sfSwmBH_sAX_GAETC&_nc_ht=scontent.fdac24-3.fna&oh=00_AfAKQFnfNcpXTNDgCNH23azciRqVDrrgGDcETXFs0jMTrA&oe=658AE37F" alt="" /> <span> <MdOutlineArrowDropDown /> </span> </li>
                   </ul>
                 </div>
-
-                {/* comment box */}
-                {/* <div className="comment-box p-3">
-                  <p> View more comments </p>
-                  <div className="replay-box">
-                        <img style={{width: "20px", height: "20px" , borderRadius: "50%"}} src="https://scontent.fdac24-4.fna.fbcdn.net/v/t1.6435-9/92460140_507303053271172_3822400947888324608_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=be3454&_nc_ohc=ereNXr_g49kAX9Oy7He&_nc_ht=scontent.fdac24-4.fna&oh=00_AfBPU6H5TyNt3BQJ2GRAuUAWo1PPuGIZyNjGwzquu9fLlA&oe=65AFA7ED" alt="" />
-                    <div className="name-box">
-                      <div className="name-interbox">
-                         <h6> Goutam ray </h6>
-                         <p> interested </p>
-                      </div>
-                      <div className="bbbb-cd">
-                         <ul>
-                           <li> 4d </li>
-                           <li> Like </li>
-                           <li> Replay </li>
-                         </ul>
-                      </div>
-
-                    </div>
-                  </div>
-                </div> */}
 
 
               </div>
@@ -412,6 +461,7 @@ const Home = () => {
 
           </div>
 
+<<<<<<< HEAD
          {/* right site ber  */}
           <div className="col-md-3 banner-right-side">
               <Card>
@@ -523,12 +573,60 @@ const Home = () => {
                 <p style={{ fontSize: "12px", marginLeft: "5px", position: "relative", top: "9px"}}> LinkedIn Corporation © 2024 </p>
               </div>
            
-          </div>
+=======
+          {/* right sideber */}
+          <div className="col-md-3 fb-right-sideBar "> 
+              <div className="pages-profile">
+                <h5> Your Pages and profiles </h5>
+                <span>  <HiOutlineDotsHorizontal /> </span>
+               
+              </div>
+              <hr />
+              <div className="friend-request">
+                <h6> Friend requests </h6>
+                <h6> <Link> See all </Link>  </h6>
+              </div>
+              <div className="confirm-box">
+                <div className="confirm-box-left">
+                  <img style={{width:"60px", height:"60px", borderRadius: "50%"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXWz-jIOefjn7FdX6GKDGk3q_xprYS9EOBY_2O8xd9jg&s" alt="" />
+                </div>
+                <div className="confirm-box-right">
+                  <div className="right-box-a">
+                    <div className="confirm-abc">
+                      <h6> Rahim ray </h6>
+                      <div className="name-box">
+                      <img style={{width:"20px", height:"20px", borderRadius: "50%"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXWz-jIOefjn7FdX6GKDGk3q_xprYS9EOBY_2O8xd9jg&s" alt="" />
+                      <p> 2 matual friends</p>
+                      </div>
+                    </div>
+                    <div className="confirm-def">
+                       <p> 3d </p>
+                    </div>
+                  </div>
+                  <div className="right-box-b">
+                     <Button variant="primary"> Confirm </Button>
+                     <Button  className="delete-btn"> Delete </Button>
+                  </div>
 
-              
-            
-            
-     
+                </div>
+              </div>
+              <hr />  
+              <div className="pages-profile">
+                <h5> Contacts </h5>
+                <span className="contact-abc-search"> <IoSearch /> <HiOutlineDotsHorizontal /> </span>
+              </div>
+              <div className="contact-box-fri">
+                { friendImgbox.map((item, index) => {
+                  return  <div className="img-view" key={index}>
+                  <img style={{height:"35px", width: "35px" , borderRadius: "50%"}} src={item.photo} alt="" />
+                 <div className="dot-ab"></div>
+                  <p> {item.content} </p>
+                </div>
+                })}
+               
+              </div>
+>>>>>>> parent of c6c6e2a (linkedin design)
+          </div>
 
         </div>
       </div>
