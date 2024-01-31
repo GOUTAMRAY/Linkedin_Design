@@ -5,8 +5,8 @@ import PageHeader from "../../components/PageHeader/PageHeader"
 const MarketPlace = () => {
   return (
     <>
-      <PageHeader title={"MarketPlace"}/>
-      <h2> MarketPlace </h2>
+      <PageHeader title={"Jobs"}/>
+      <h2> Jobs </h2>
     </>
   )
 }

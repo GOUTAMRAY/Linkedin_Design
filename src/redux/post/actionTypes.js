@@ -1,0 +1,35 @@
+
+// get all post 
+export const GET_POST_PENDING    = "GET_POST_PENDING";
+export const GET_POST_FULLFILLED = "GET_POST_FULLFILLED";
+export const GET_POST_REJECTED   = "GET_POST_REJECTED";
+
+// DELETE SINGLE POST 
+export const DELETE_POST_PENDING    = "DELETE_POST_PENDING";
+export const DELETE_POST_FULLFILLED = "DELETE_POST_FULLFILLED";
+export const DELETE_POST_REJECTED   = "DELETE_POST_REJECTED";
+
+
+
+// add new student 
+export const ADD_POST_PENDING    = "ADD_POST_PENDING";
+export const ADD_POST_FULLFILLED = "ADD_POST_FULLFILLED";
+export const ADD_POST_REJECTED   = "ADD_POST_REJECTED";
+
+// add new student 
+export const UPDATE_POST_PENDING    = "UPDATE_POST_PENDING";
+export const UPDATE_POST_FULLFILLED = "UPDATE_POST_FULLFILLED";
+export const UPDATE_POST_REJECTED   = "UPDATE_POST_REJECTED";
+
+
+
+
+
+
+
+
+
+
+
+
+

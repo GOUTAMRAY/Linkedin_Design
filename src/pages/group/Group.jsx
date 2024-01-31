@@ -5,8 +5,8 @@ import "./Group.scss"
 const Group = () => {
   return (
     <>
-      <PageHeader title={"Group"}/>
-      <h2> Group </h2>
+      <PageHeader title={"Messaging"}/>
+      <h2> Messaging </h2>
     </>
   )
 }

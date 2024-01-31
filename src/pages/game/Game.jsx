@@ -4,8 +4,8 @@ import PageHeader from "../../components/PageHeader/PageHeader";
 const Game = () => {
   return (
     <>
-  <PageHeader title={"Game"}/>
-     <h2> Game </h2>
+  <PageHeader title={"Notifications"}/>
+     <h2> Notifications</h2>
     </>
   )
 }

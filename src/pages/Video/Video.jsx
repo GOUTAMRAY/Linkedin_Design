@@ -5,8 +5,8 @@ import PageHeader from "../../components/PageHeader/PageHeader";
 const Video = () => {
   return (
     <> 
-    <PageHeader title={"Video"}/>
-    <h2> Video </h2>
+    <PageHeader title={""}/>
+    <h2> My networks </h2>
       
     </>
   )

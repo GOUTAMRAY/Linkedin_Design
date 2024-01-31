@@ -1,7 +1,7 @@
 
-import { IoIosHome, IoIosNotifications } from "react-icons/io";
+import { IoIosHome } from "react-icons/io";
 import {  MdPeopleAlt } from "react-icons/md";
-import { FaFacebookMessenger } from "react-icons/fa";
+
 import { IoSearch, IoNotificationsSharp } from "react-icons/io5";
 import { Link, useLocation } from "react-router-dom";
 import { BsBagDashFill } from "react-icons/bs";
@@ -23,7 +23,7 @@ const Header = () => {
                <img style={{width:"40px"}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="" />
                <div className="fff-box">
                   <span> <IoSearch />  </span>
-                  <input type="text" placeholder="Search Facebook" />
+                  <input type="text" placeholder="Search" />
                </div>
 
             </div>
